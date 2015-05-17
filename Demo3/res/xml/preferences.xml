@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:fragment
+    ="com.example.demo3.fragment.GizlilikPreferencesFragment"
+    android:title="@string/pref_category_gizlilik"
+    android:summary="@string/pref_category_gizlilik_summary"/>
+    <header android:fragment
+       ="com.example.demo3.fragment.UyarilarPreferencesFragment"
+    android:title="@string/pref_category_uyarilar_title"
+    android:summary="@string/pref_category_uyarilar_summary"/>
+     <header android:fragment
+       ="com.example.demo3.fragment.TonlarPreferencesFragment"
+    android:title="@string/pref_category_tonlar_title"
+    android:summary="@string/pref_category_tonlar_summary"/>
+</preference-headers>

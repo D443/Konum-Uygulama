@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+   xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:key="uyari_settings">
+    <PreferenceCategory
+         android:title="@string/pref_category_gizlilik">
+        <CheckBoxPreference
+           android:key="PREF_ARKADAS_UYARI" 
+            android:title="@string/pref_arkadas_uyari_title"
+            android:defaultValue="true"
+            />
+        <ListPreference
+            android:key="PREF_YAKINLIK_OLCUSU"
+            android:title="@string/pref_yakinlik_title"
+            android:summary="@string/pref_yakinlik_summary"
+            android:defaultValue="1"
+            android:dialogTitle="@string/pref_yakinlik_title"
+            android:entries="@array/yakinlik_olcusu"
+            android:entryValues="@array/yakinlik_olcusu_values"
+            />
+    </PreferenceCategory>
+    
+    
+    
+</PreferenceScreen>

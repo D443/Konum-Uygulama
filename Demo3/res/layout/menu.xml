@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/giris_arka_plan">
+      
+        <TableLayout 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:paddingTop="25dp"
+          android:paddingLeft="10dp"
+          android:paddingRight="10dp"
+          android:background="@drawable/menu_arka_plan">
+            <TableRow> 
+              <ImageButton
+                 android:id="@+id/haritaButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/harita1" 
+                    />
+              <ImageButton
+                 android:id="@+id/kimlerButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/kimler1" 
+                    />  
+                
+            </TableRow>
+            <TableRow android:paddingTop="10dp"> 
+              <ImageButton
+                 android:id="@+id/profilButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/profil1"/>
+              <ImageButton
+                 android:id="@+id/ayarlarButton"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/ayarlar1" />  
+                
+            </TableRow> 
+        </TableLayout>
+    </RelativeLayout>
+
