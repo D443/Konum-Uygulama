@@ -1,2 +1,0 @@
-# Konum-Uygulama
-Konum Uygulaması
